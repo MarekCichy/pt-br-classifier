@@ -3,11 +3,10 @@
 ## Description
 Classifying Portuguese texts according to their variety (European or Brazilian Portuguese) 
 The repository documents the entire process of building a ML model and deploying it:
-- Scraping data from TED lectures with Scrapy
-- Basic data processing (Jupyter notebook, pandas)
-- Setting up a classifier using scikit-learn
-- Exporting the model with joblib
-- Setting an API with Flask
+- Scraping data from TED lectures with Scrapy (BRCrawler.py, PTCrawler.py)
+- Basic data processing, setting up a classifier using scikit-learn (ptclassifier.ipynb)
+- Exporting the model with joblib (ptclassifier.ipynb)
+- Setting an API with Flask (flask_app.py)
 
 ## Contributions
 Are highly encouraged. Some paths to explore:
