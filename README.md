@@ -1,6 +1,7 @@
 # pt-br-classifier
 
 ## Description
+Classifying Portuguese texts according to their variety (European or Brazilian Portuguese) 
 The repository documents the entire process of building a ML model and deploying it:
 - Scraping data from TED lectures with Scrapy
 - Basic data processing (Jupyter notebook, pandas)
