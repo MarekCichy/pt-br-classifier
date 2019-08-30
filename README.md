@@ -9,7 +9,9 @@ The repository documents the entire process of building a ML model and deploying
 - Setting an API with Flask (flask_app.py)
 
 ## Contributions
-Are highly encouraged. Some paths to explore:
+Are highly encouraged. First and foremost, any constructive criticism of the above is more than welcome.
+
+Some paths I plan to explore in September:
 - Scrape other kinds of texts (movie subtitles, media articles, blog posts, forum discussions) and check the model's performance
 - Make a basic frontend app that consumes the API 
 - Return weights for separate words and show their "brazilness" or "portugueseness" in the frontend (eXplainable AI)
