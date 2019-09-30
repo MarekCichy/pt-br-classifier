@@ -7,7 +7,7 @@ The repository documents the entire process of building a ML model and deploying
 - Basic data processing, setting up a classifier using scikit-learn (ptclassifier.ipynb)
 - Exporting the model with joblib (ptclassifier.ipynb)
 - Setting an API with Flask (flask_app.py)
-- Making a <a href="http://marekcichy.alwaysdata.net/", target="_blank">basic frontend app</a> that consumes the API.
+- Making a <a href="http://marekcichy.alwaysdata.net/" target="_blank">basic frontend app</a> that consumes the API.
 
 ## Contributions
 Are highly encouraged. First and foremost, any constructive criticism of the above is more than welcome.
@@ -24,7 +24,7 @@ O repositório documenta todo o processo de construção de um modelo de aprendi
 - Processamento básico de dados, montagem de um classificador com scikit-learn (ptclassifier.ipynb)
 - Exportação do modelo com joblib (ptclassifier.ipynb)
 - Configuração de uma API com Flask (flask_app.py)
-- Criação de um <a href="http://marekcichy.alwaysdata.net/", target="_blank">aplicativo básico de frontend</a> que consome a API.
+- Criação de um <a href="http://marekcichy.alwaysdata.net/" target="_blank">aplicativo básico de frontend</a> que consome a API.
 
 ## Contribuições
 São muito bem-vindas. Princpalmente, qualquer crítica construtiva do acima mencionado é mais que desejada.
