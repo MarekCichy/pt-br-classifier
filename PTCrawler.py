@@ -1,5 +1,4 @@
 import scrapy
-import pandas as pd
 from scrapy.crawler import CrawlerProcess
 
 class TedSpiderPt(scrapy.Spider):
@@ -35,6 +34,7 @@ class TedSpiderPt(scrapy.Spider):
             line = line.replace('\n',' ')
             line = line.replace('\t',' ')
         talk = '  '.join(talk)
+        talk = talk.replace('\n',' ')
         ted_dict[title] = talk
 
 urls_list_pt = ['https://www.ted.com/talks?sort=newest&language=pt']
@@ -49,6 +49,6 @@ process = CrawlerProcess()
 process.crawl(TedSpiderPt)
 process.start()
 
-talks_pt = pd.DataFrame.from_dict(ted_dict, orient='index')
-
-talks_pt.to_excel('talks_pt.xlsx')
+with open('pt_dict.csv', 'w', encoding='utf-8') as f:
+    for key in ted_dict.keys():
+        f.write("%s;%s\n"%(key,ted_dict[key]))
