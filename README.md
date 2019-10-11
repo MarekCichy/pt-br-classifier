@@ -1,5 +1,7 @@
 # pt-br-classifier
 
+(versão portuguesa abaixo)
+
 ## Description
 Classifying Portuguese texts according to their variety (European or Brazilian Portuguese) 
 The repository documents the entire process of building a ML model and deploying it:
@@ -8,6 +10,8 @@ The repository documents the entire process of building a ML model and deploying
 - Exporting the model with joblib (ptclassifier.ipynb)
 - Setting an API with Flask (flask_app.py)
 - Making a <a href="http://marekcichy.alwaysdata.net/" target="_blank">basic frontend app</a> that consumes the API.
+
+For more details on the process, see my <a href="https://medium.com/@marekkcichy/nlp-basics-hands-on-a-portuguese-dialect-classifier-deployed-online-in-3-steps-53a8b3b88ea9">article on Medium</a>. 
 
 ## Contributions
 Are highly encouraged. First and foremost, any constructive criticism of the above is more than welcome.
@@ -25,6 +29,8 @@ O repositório documenta todo o processo de construção de um modelo de aprendi
 - Exportação do modelo com joblib (ptclassifier.ipynb)
 - Configuração de uma API com Flask (flask_app.py)
 - Criação de um <a href="http://marekcichy.alwaysdata.net/" target="_blank">aplicativo básico de frontend</a> que consome a API.
+
+Para mais detalhes sobre o processo, confira meu <a href="https://medium.com/@marekkcichy/nlp-basics-hands-on-a-portuguese-dialect-classifier-deployed-online-in-3-steps-53a8b3b88ea9">artigo em Medium</a> (em inglês, por enquanto).
 
 ## Contribuições
 São muito bem-vindas. Princpalmente, qualquer crítica construtiva do acima mencionado é mais que desejada.
