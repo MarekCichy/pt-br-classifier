@@ -16,7 +16,7 @@ For more details on the process, see my <a href="https://medium.com/@marekkcichy
 ## Contributions
 Are highly encouraged. First and foremost, any constructive criticism of the above is more than welcome.
 
-Some paths I plan to explore in October:
+Some paths I plan to explore:
 - Scrape other kinds of texts (movie subtitles, media articles, blog posts, forum discussions) and check the model's performance
 - Return weights for separate words and show their "brazilness" or "portugueseness" in the frontend (eXplainable AI)
 - Use an LSTM network instead of NaiveBayes
@@ -35,7 +35,7 @@ Para mais detalhes sobre o processo, confira meu <a href="https://medium.com/dat
 ## Contribuições
 São muito bem-vindas. Princpalmente, qualquer crítica construtiva do acima mencionado é mais que desejada.
 
-Algumas trilhas que pretendo explorar em Outubro:
+Algumas trilhas que pretendo explorar:
 - Raspar outros gêneros de textos (legendas, artigos, blogues, fóruns) para verificar o modelo e melhorá-lo
 - Mostrar os pesos para palavras individuais e mostrar sua "brasildade" ou "portuguesidade" no aplicativo (um punhado de eXplainable AI)
 - Usar uma rede LSTM em vez de NaiveBayes
