@@ -29,10 +29,10 @@ class TedSpiderPt(scrapy.Spider):
         title = title.split(':')[0]
         talk = response.xpath(
             '//div[@class="Grid__cell flx-s:1 p-r:4"]/p/text()').extract()
-        for line in talk:
-            line = line.strip()
-            line = line.replace('\n',' ')
-            line = line.replace('\t',' ')
+        for i in range(len(talk)): 
+            line = talk[i].strip() 
+            line = line.replace(‘\n’,’ ‘) 
+            talk[i] = line.replace(‘\t’,’ ‘) 
         talk = '  '.join(talk)
         talk = talk.replace('\n',' ')
         ted_dict[title] = talk
